@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cacatua</title>
+    <link rel="icon" href="img/bg/mainCockatoo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="http://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+   
+<body>
+    <div id="main-container">
+        <div id="main">
+            <img src="img/bg/mainBg-sp.jpg"  class="" id="main-bg-sp" alt="">
+            <img src="img/bg/cockatoo.png"  class="" id="main-img1" alt="">
+            <img src="img/bg/mainCockatoo.png"  class="" id="main-img2" alt="">
+            <div id="main-content">
+                <p>
+                    巴&ensp;丹
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 展開與收合按鈕-->
+    <button class="btn btn-info navbar-dark" type="button" id="menu-toggler">
+        <span class="menu-toggler-line"></span>
+        <span class="menu-toggler-line"></span>
+        <span class="menu-toggler-line"></span>
+    </button>
+    
+    <!--
+    <button class="btn btn-info navbar-dark" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation" id="menu-toggler">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+    -->
+    
+    <!-- 導覽列-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info sticky-top" id="menu" >
+    <!--
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info sticky-top collapse show " id="menu" >
+    -->
+       
+        <!-- Logo
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" style="width:40px">
+        </a>-->
+        
+        <div class="navbar-collapse">
+            <ul class="navbar-nav nav-justified" id="nav-list">
+                <!-- 項目（預設）-->
+                <li class="nav-item">
+                    <a class="nav-link" id="to-intro">簡介</a>
+                    <span class="nav-underline"></span>
+                </li>
+                <!-- 項目-->
+                <li class="nav-item">
+                    <a class="nav-link" id="to-habits">習性</a>
+                    <span class="nav-underline"></span>
+                </li>
+                <!-- 項目-->
+                <li class="nav-item">
+                    <a class="nav-link" id="to-species">種類</a>
+                    <span class="nav-underline"></span>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    <!-- 主網頁內容-->
+    <div id="intro">
+        <div class="row container-fluid">
+            <div class="col-md-12 heading">
+                <h1>簡介</h1>
+                <h6>Introduction</h6>
+            </div>
+            <div class="col-md-6">
+                <p>　　巴丹鸚鵡為多種鸚鵡的俗稱，其中多指稱白鳳頭鸚鵡屬之下所包含的數種鸚鵡。</p>
+                <p>　　白鳳頭鸚鵡屬的鸚鵡原生於菲律賓、華勒斯線、所羅門群島與澳洲南部。牠們長著白色的羽毛（某些種類可能摻雜著粉羽或黃羽）、可伸展的頭冠、與一個黑色的鳥喙。</p>
+                <p>　　現今，白鳳頭鸚鵡中的多種鸚鵡的保育狀況被視為是受到威脅的。由於棲地遭到破壞與大量的誘捕，藍眼巴丹、雨傘巴丹、鮭冠巴丹已被列為易危物種，而紅肛巴丹與小巴丹則已經被列為極危物種。</p>
+                <p>　　巴丹鸚鵡在二名法中，屬名為"Cacatua"。語源自馬來語中的"kakaktua"，意為「老姐姐」。</p>
+            </div>
+            <div class="col-md-6"><img id="intro-cockatoo" class="img-thumbnail" src="img/intro-cockatoo.jpg" alt=""></div>
+        </div>
+    </div>
+    <div id="habits">
+        <div class="row container-fluid">
+            <div class="col-sm-12 heading">
+                <h1>習性</h1>
+                <h6>habits</h6></div>
+            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+                <div class="paragraph">
+                    <h5>愛好社交</h5>
+                    <p>　　巴丹是一種高度社交性的鸚鵡，飼主需要經常陪伴在巴丹身邊與他玩耍。如果太常讓巴丹處於獨處的狀態，巴丹可能會為了吸引目光而不斷發出叫聲，更甚至可能會自殘式地拔自己的羽毛。</p>
+                    <p>　　為了避免這種狀況，建議飼主可以多花點時間陪伴巴丹玩耍，又或是可以多養一隻鳥陪巴丹作伴。</p>
+                </div>
+                <div class="paragraph">
+                    <h5>大聲拆</h5>
+                    <p>　　巴丹的超強精力讓他比平偉還要會拆。他們很喜歡啃咬周圍的一切東西，所以如果想養一隻在家的話可能得做好傢俱被拆卸的心理準備。</p>
+                    <p>　　如果買些可破壞的玩具讓巴丹過剩的精力有地方發洩的話，或許可以消磨一些巴丹的破壞力也說不定。</p>
+                </div>
+                <div class="paragraph">
+                    <h5>叫聲</h5>
+                    <p>　　巴丹有著相當洪量的叫聲，在飼養前可能得先考慮一下街坊鄰居。巴丹的說話能力與其他鸚鵡比起來的話可能並沒有這麼出色，他更擅長的是隨著音樂跳舞或是學些雜技。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="species">
+        <div class="row container-fluid">
+            <div class="heading col-sm-12">
+                <h1>種類</h1>
+                <h6>species</h6> 
+                <p class="comment">※巴丹為多種鸚鵡的俗稱，可能未列舉出所有巴丹</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <img class="cockatoo-img img-thumbnail" src="img/yellow-crested.jpg" alt="">
+                <div class="heading cockatoo-name">
+                    <h5>小巴丹</h5>
+                    <h6>Yellow-crested cockatoo</h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="cockatoo-img img-thumbnail" src="img/sulphur-crested.jpg" alt="">
+                <div class="heading cockatoo-name">
+                    <h5>大巴丹</h5>
+                    <h6>Sulphur-crested cockatoo</h6>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <img class="cockatoo-img img-thumbnail" src="img/blue-eyed.jpg" alt="">
+                <div class="heading cockatoo-name">
+                    <h5>藍眼巴丹</h5>
+                    <h6>Blue-eyed cockatoo</h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="cockatoo-img img-thumbnail" src="img/umbrella.jpg" alt="">
+                <div class="heading cockatoo-name">
+                    <h5>雨傘巴丹</h5>
+                    <h6>Umbrella cockatoo</h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="cockatoo-img img-thumbnail" src="img/salmon-crested.jpg" alt="">
+                <div class="heading cockatoo-name">
+                    <h5>鮭冠巴丹</h5>
+                    <h6>Salmon-crested cockatoo</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
